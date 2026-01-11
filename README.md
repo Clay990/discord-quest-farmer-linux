@@ -17,6 +17,21 @@ This tool completes Discord Quests by tricking the Discord Linux client into thi
 
 ### 1. Clone the Repository and run
 ```bash
-git clone https://github.com/Clay990/discord-quest-farmer-linux.git
+git clone [https://github.com/Clay990/discord-quest-farmer-linux.git](https://github.com/Clay990/discord-quest-farmer-linux.git)
 cd discord-quest-farmer-linux
 python quest.py
+
+```
+
+## ❓ How it Works
+
+Discord on Linux detects games by checking your running **process names**. It does not verify if the file is a valid Windows PE executable.
+
+1. This script creates a fake folder structure (e.g., `~/Games/Fake_Quests/Game/Win64/`).
+2. It copies your native `/usr/bin/sleep` binary to that folder.
+3. It renames `sleep` to the target executable (e.g., `UAGame.exe`).
+4. It runs the process for 15+ minutes so Discord detects it.
+
+## ⚠️ Disclaimer
+
+This tool is for educational purposes. Use it responsibly. The maintainers are not responsible for any account actions taken by Discord (though this method is generally considered safe as it only spoofs local process names).
