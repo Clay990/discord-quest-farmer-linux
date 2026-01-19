@@ -1,3 +1,6 @@
+<img width="878" height="465" alt="image" src="https://github.com/user-attachments/assets/fd52699f-d688-4387-9867-3e1c5211cb18" /> 
+
+
 # 🐧 Linux Discord Quest Farmer
 
 **Get Discord Quest rewards (Orbs, Decorations) on Linux without installing 100GB games.**
@@ -35,3 +38,5 @@ Discord on Linux detects games by checking your running **process names**. It do
 ## ⚠️ Disclaimer
 
 This tool is for educational purposes. Use it responsibly. The maintainers are not responsible for any account actions taken by Discord (though this method is generally considered safe as it only spoofs local process names).
+
+<img width="1202" height="815" alt="image" src="https://github.com/user-attachments/assets/e2f6953a-1219-469e-a451-a37f199b8131" />
