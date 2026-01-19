@@ -17,7 +17,7 @@ This tool completes Discord Quests by tricking the Discord Linux client into thi
 
 ### 1. Clone the Repository and run
 ```bash
-git clone [https://github.com/Clay990/discord-quest-farmer-linux.git](https://github.com/Clay990/discord-quest-farmer-linux.git)
+git clone https://github.com/Clay990/discord-quest-farmer-linux.git
 cd discord-quest-farmer-linux
 python quest.py
 
