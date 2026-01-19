@@ -41,6 +41,24 @@ ACTIVE_QUESTS = [
         "exe": "VALORANT-Win64-Shipping.exe",
         "folder": "Win64",
         "time": 1200
+       },
+    {
+        "name": "Blue Protocol: Star Resonance",
+        "exe": "BPSR.exe",
+        "folder": "",
+        "time": 1200
+    },
+    {
+        "name": "Marvel Rivals",
+        "exe": "Marvel-Win64-Shipping.exe",
+        "folder": "Win64",
+        "time": 1200
+    },
+    {
+        "name": "Torchlight: Infinite",
+        "exe": "torchlight_infinite.exe",
+        "folder": "Win64",
+        "time": 1200
     }
 ]
 # ==========================================
